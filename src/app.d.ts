@@ -9,4 +9,14 @@ declare global {
 	}
 }
 
+interface Article {
+	content?: string,
+	slug?: string,
+	d?: string,
+	title: string,
+	summary: string,
+	tags: string[]
+	published_at: string,
+}
+
 export {};
