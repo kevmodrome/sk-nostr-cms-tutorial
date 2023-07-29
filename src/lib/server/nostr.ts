@@ -3,7 +3,7 @@ import type { NDKEvent } from "@nostr-dev-kit/ndk";
 import { generateSlug, mapTags } from './utils'
 import 'websocket-polyfill'
 
-const relays = ['wss://purplepag.es']
+const relays = ['wss://relay.damus.io', 'wss://purplepag.es']
 
 class Nostr {
     private ndk: NDK
